@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial",sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg,#1a1a2e,#16213e);
+    color: white;
+    padding: 5%;
+}
+.container{
+     width: 40rem;
+     background-color: black;
+     height: 25rem;
+     margin-top: 7%;
+     margin-left: 24%;
+     border-radius: 20px;
+}
+#head{
+    text-align: center;
+    font-size: xx-large;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: rgb(134, 46, 46);
+}
+#time{
+    margin-left: 23%;
+    font-size: 4rem;
+    margin-bottom: 5%;
+    color: rgb(238, 241, 241);
+}
+#date{
+    margin-left: 39%;
+    font-size: 2rem;
+    margin-bottom: 4%;
+}
+button{
+    margin-left: 25%;
+    width: 50%;
+    height: 10%;
+    font-size: x-large;
+    background-color: rgb(134, 46, 46);
+    border: 2px solid rgb(134, 46, 46);
+    border-radius: 5px;
+    color: white;
+}
