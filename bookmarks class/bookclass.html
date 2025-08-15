@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bookclass.css">
+    <title>book mark</title>
+</head>
+<body>
+<div class="container">
+   <h1 class="head">Bookmark Manager</h1>
+  <div id="book-mark">
+     <form id="form">
+       <h2 id="head2">Add New Bookmark</h2>
+       <div id="title">
+        <label id="website">Website Title</label><br>
+        <input type="text" id="title-text">
+       </div>
+       <div id="url">
+        <label id="Website-url">Website URL</label><br>
+        <input type="url" placeholder="http://example.com" id="url-text">
+       </div>
+       <div id="type">
+         <label id="category">Category</label><br>
+         <select id="proffession" >
+            <option id="work">Work</option>
+            <option id="study">Study</option>
+            <option id="entertainment">Entertainment</option>
+         </select>
+       </div>
+       <button id="add-book">Add Bookmarks</button>
+     </form>
+  </div>
+  <div id="filter">
+      <h2 id="head3">Filter Bookmarks</h2>
+      <div>
+     <button class="filter-btn active">All</button>
+     <button class="filter-btn">Work</button>
+     <button class="filter-btn">Study</button>
+     <button class="filter-btn">Entertainment</button>
+
+      </div>
+      <div id="your">
+         <label id="your-book">Your-Bookmarks</label>
+         <div id="book">
+            <div class="item">
+               <strong>Title</strong><br>
+               <a>https://sites.google.com/view/classrooms-workspace/login</a>
+               <button class="btn-v">work</button>
+               <button class="btn-del"></button>
+
+            </div>
+         </div>
+      </div>
+  </div>
+</div>
+</div>
+<script src="bookclass.js"></script>
+</body>
+</html>
